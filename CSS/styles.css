@@ -1,7 +1,4 @@
 /*header styles*/
-.header {
-    position: fixed;
-}
 .header-container {
     Padding: 17px 32px;
     display: flex;
@@ -91,7 +88,8 @@ a {
     background-color: #F3F3F3;
     display: flex;
     gap: 30px;
-    width: Fill;
+    justify-content: center;
+    
 }
 .div-wrapper {
     display: flex;
@@ -120,4 +118,47 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+/*second headline styles*/
+.scnd-headline-container {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    Padding: 96px 150px;
+    gap: 133px;
+}
+.scnd-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    gap: 16px;
+}
+.scnd-h {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+.scnd-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.list-with-bullets {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: disc;
+    margin-left: 15px;
+    
+}
+li:not(:last-child) {
+    margin-bottom: 5px;
 }
